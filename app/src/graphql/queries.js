@@ -35,3 +35,50 @@ export const getSoccerPlayersDESC = gql`
         }
     }
 `
+
+export const getSoccerPlayersGoalsASC = gql`
+    query PlayersQuery {
+        players(order_by: {goals: asc}) {
+            name
+            matches
+            id
+            goals
+            shirt_number
+        }
+    }
+`
+
+export const getSoccerPlayersGoalsDESC = gql`
+    query PlayersQuery {
+        players(order_by: {goals: desc}) {
+            name
+            matches
+            id
+            goals
+            shirt_number
+        }
+    }
+`
+export const getSoccerPlayersMatchesASC = gql`
+    query PlayersQuery {
+        players(order_by: {matches: asc}) {
+            name
+            matches
+            id
+            goals
+            shirt_number
+        }
+    }
+`
+
+export const getSoccerPlayersMatchesDESC = gql`
+    query PlayersQuery {
+        players(order_by: {matches: desc}) {
+            name
+            matches
+            id
+            goals
+            shirt_number
+        }
+    }
+`

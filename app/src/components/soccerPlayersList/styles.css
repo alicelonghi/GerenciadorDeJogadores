@@ -15,3 +15,13 @@ tr {
     text-align: center;
     width: 8px;
 }
+
+.alignSearch {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.alignSearch input {
+    margin-left: 10px;
+}

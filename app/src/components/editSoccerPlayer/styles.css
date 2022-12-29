@@ -1,0 +1,32 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+.form {
+    width: 650px;
+    padding: 10px;
+}
+
+.buttonForm {
+    border-radius: 3px;
+    padding: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+#buttonCancelar {
+    background: #73937E;
+    color: #FFD600;
+    margin-right: 20px;
+}
+
+#buttonSalvar {
+    background: #FFD600;
+    color: #73937E;
+}
+
+.alignButtons {
+    display: flex;
+    justify-content: end;
+}
