@@ -1,0 +1,17 @@
+.table-action {
+    border-radius: 3;
+    width: 650px;
+    color: #73937e;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1pt solid #CEB992;
+  }
+
+.shirt {
+    background-color: #FFD600;
+    border-radius: 100%;
+    text-align: center;
+    width: 8px;
+}
